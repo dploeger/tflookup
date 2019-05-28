@@ -2,8 +2,8 @@ import { AbstractDocumentationIndex } from './AbstractDocumentationIndex'
 import { AbstractResult } from './AbstractResult'
 import { ResultType } from './ResultType'
 import { AbstractObjectDocumentation } from './AbstractObjectDocumentation'
-import log = require('loglevel')
 import * as _ from 'lodash'
+import log = require('loglevel')
 
 export class DocumentationSearcher {
   private readonly _documentationIndex: AbstractDocumentationIndex
@@ -34,17 +34,16 @@ export class DocumentationSearcher {
     return 0
   }
 
-  public search(query: string): Array<AbstractResult> {
+  public search(query: string, maximumResults: number): Array<AbstractResult> {
     if (this._searchIndex.hasOwnProperty(query)) {
       log.debug(`Search for ${query} already processed. Returning cached results`)
-      return this._searchIndex[query]
+      return this._searchIndex[query].slice(0, maximumResults)
     }
     let results: Array<AbstractResult> = []
 
     const searchStringResults: { [key: string]: Array<AbstractResult> } = {}
 
     for (const searchString of query.split(/ /)) {
-
       log.debug(`Searching for ${searchString}`)
       for (const vendor in this._documentationIndex) {
         if (this._documentationIndex.hasOwnProperty(vendor)) {
@@ -80,7 +79,6 @@ export class DocumentationSearcher {
                     })
 
                     descriptionScore = vendorScore + 50
-
                   }
 
                   const objectWeight = this._getStringWeight(objectName, searchString) * (objectType === 'datasources' ? 10 : 20)
@@ -93,7 +91,6 @@ export class DocumentationSearcher {
                       result: objectData
                     })
                   }
-
                 }
               }
             }
@@ -112,9 +109,15 @@ export class DocumentationSearcher {
       }
     }
 
+    log.debug('Ordering result')
+
+    results = results.sort((a, b) => {
+      return b.weight - a.weight
+    })
+
     this._searchIndex[query] = results
 
-    return results
+    return results.slice(0, maximumResults)
   }
 
   private _mergeResults(target: Array<AbstractResult>, source: Array<AbstractResult>): Array<AbstractResult> {

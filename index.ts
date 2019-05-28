@@ -19,8 +19,13 @@ log.setDefaultLevel((
 new DocumentationIndexer().getIndex().then(documentationIndex => {
   const app = express()
 
+  if (process.env.NODE_ENV !== 'production') {
+    log.warn('Enabling ALL CORS Requests')
+    app.use(require('cors')())
+  }
+
   log.info('Registering UI')
-  app.use('/', express.static('static'))
+  app.use('/', express.static('static/dist'))
   log.info('Registering api base')
   app.use('/api', new ApiController().getRouter())
   log.info('Registering index api')

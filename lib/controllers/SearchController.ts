@@ -17,7 +17,7 @@ export class SearchController extends AbstractController {
     if (!req.query.hasOwnProperty('q')) {
       throw new ExpressError('No query string given with ?q=', 'NoQueryString', 400)
     }
-    res.status(200).json(this._documentationSearcher.search(req.query.q))
+    res.status(200).json(this._documentationSearcher.search(req.query.q, req.query.max || 100))
   }
 
   public getRouter(): Router {
