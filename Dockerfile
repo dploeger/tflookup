@@ -7,6 +7,6 @@ RUN grunt build
 RUN cd static && npm run build
 RUN chmod +x /usr/src/app/entrypoint.sh
 ENV TFLOOKUP_INDEXFILE documentationIndex.json
-ENV NODE_ENVIRONMENT production
+ENV NODE_ENV production
 EXPOSE 8080
 CMD /usr/src/app/entrypoint.sh
