@@ -13,7 +13,14 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": ""
+        "url": "git@github.com:dploeger/tflookup.git"
+    },
+    "scripts": {
+        "build": "grunt build && cd static && npm run-script build",
+        "start": "NODE_ENV=production node index.js"
+    },
+    "engines": {
+        "node": "10.16.0"
     },
     "files": [
         "index.d.ts",
