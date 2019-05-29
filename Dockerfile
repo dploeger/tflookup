@@ -9,4 +9,4 @@ RUN chmod +x /usr/src/app/entrypoint.sh
 ENV TFLOOKUP_INDEXFILE documentationIndex.json
 ENV NODE_ENVIRONMENT production
 EXPOSE 8080
-ENTRYPOINT /usr/src/app/entrypoint.sh
+CMD /usr/src/app/entrypoint.sh
