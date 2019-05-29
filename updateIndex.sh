@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+grunt build
 rm documentationIndex.json
 rm indexErrors.txt
 git submodule update --remote --merge
