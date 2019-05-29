@@ -16,7 +16,7 @@
         "url": "git@github.com:dploeger/tflookup.git"
     },
     "scripts": {
-        "build": "grunt build && cd static && npm run-script build",
+        "build": "grunt build && cd static && npm install && npm run-script build",
         "start": "NODE_ENV=production node index.js"
     },
     "engines": {
@@ -62,7 +62,6 @@
         "tslint-config-prettier": "^1.18.0",
         "typescript": "^3.4.5",
         "@types/express": "^4.16.1",
-        "@types/lodash": "^4.14.130",
-        "vue-cli": "^2.9.6"
+        "@types/lodash": "^4.14.130"
     }
 }
