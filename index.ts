@@ -18,7 +18,7 @@ log.setDefaultLevel((
 
 new DocumentationIndexer().getIndex().then(documentationIndex => {
 
-  if (process.env.START_SERVER === 'false') {
+  if (process.env.TFLOOKUP_START_SERVER === 'false') {
     log.info('Not starting the server as requested')
     return
   }

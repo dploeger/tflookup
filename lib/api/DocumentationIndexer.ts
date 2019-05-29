@@ -21,6 +21,11 @@ export class DocumentationIndexer {
         return fs.promises.readdir(directoryPath)
       })
       .catch(error => error.code === 'ENOENT', () => Bluebird.resolve([]))
+      .filter(
+        entry => {
+          return entry.endsWith('markdown')
+        }
+      )
   }
 
   public getIndex(): Bluebird<AbstractDocumentationIndex> {

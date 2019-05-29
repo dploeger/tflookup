@@ -1,1 +1,17 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 87.5 100"><defs><style>.cls-1{fill:#1697f6;}.cls-2{fill:#7bc6ff;}.cls-3{fill:#1867c0;}.cls-4{fill:#aeddff;}</style></defs><title>Artboard 46</title><polyline class="cls-1" points="43.75 0 23.31 0 43.75 48.32"/><polygon class="cls-2" points="43.75 62.5 43.75 100 0 14.58 22.92 14.58 43.75 62.5"/><polyline class="cls-3" points="43.75 0 64.19 0 43.75 48.32"/><polygon class="cls-4" points="64.58 14.58 87.5 14.58 43.75 100 43.75 62.5 64.58 14.58"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="4.18656524%" x2="100%" y2="95.8134348%" id="linearGradient-1">
+            <stop stop-color="#5C4EE5" offset="0%"></stop>
+            <stop stop-color="#4040B2" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(7.000000, 11.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero" id="Shape">
+            <path d="M133.647799,112.578616 L125.201258,112.578616 L122.207547,109.815323 C132.685535,98.1480846 138.993711,83.0011435 138.993711,66.5237278 C138.993711,29.7821612 107.880503,0 69.4968553,0 C31.1132075,0 0,29.7821612 0,66.5237278 C0,103.265294 31.1132075,133.047456 69.4968553,133.047456 C86.7106918,133.047456 102.534591,127.009148 114.72327,116.979417 L117.610063,119.845054 L117.610063,127.930246 L171.069182,179 L187,163.750715 L133.647799,112.578616 Z M69.4968553,112.578616 C42.8742138,112.578616 21.3836478,92.0074328 21.3836478,66.5237278 C21.3836478,41.0400229 42.8742138,20.4688393 69.4968553,20.4688393 C96.1194969,20.4688393 117.610063,41.0400229 117.610063,66.5237278 C117.610063,92.0074328 96.1194969,112.578616 69.4968553,112.578616 Z"></path>
+        </g>
+    </g>
+</svg>
