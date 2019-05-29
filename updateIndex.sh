@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+npm install
 grunt build
 rm documentationIndex.json
 rm indexErrors.txt
