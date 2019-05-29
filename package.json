@@ -16,7 +16,7 @@
         "url": "git@github.com:dploeger/tflookup.git"
     },
     "scripts": {
-        "build": "grunt build && cd static && npm install && npm run-script build",
+        "build": "grunt build && cd static && npm install && find . && npm run-script build",
         "start": "NODE_ENV=production node index.js"
     },
     "engines": {
