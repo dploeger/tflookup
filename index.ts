@@ -17,6 +17,12 @@ log.setDefaultLevel((
 ) || 'warn')
 
 new DocumentationIndexer().getIndex().then(documentationIndex => {
+
+  if (process.env.START_SERVER === 'false') {
+    log.info('Not starting the server as requested')
+    return
+  }
+
   const app = express()
 
   if (process.env.NODE_ENV !== 'production') {

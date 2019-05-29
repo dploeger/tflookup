@@ -1,0 +1,5 @@
+static/node_modules
+node_modules
+npm-debug.log
+terraform-website
+static/.env*

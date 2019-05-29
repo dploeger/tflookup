@@ -77,7 +77,7 @@ export default class Lookup extends Vue {
     this._searchPromise = Bluebird.delay(500)
       .then(() => {
         this.isLoading = true
-        const apiServer = process.env.VUE_APP_TFLOG_API_SERVER
+        const apiServer = process.env.VUE_APP_TFLOG_API_SERVER || ''
         return fetch(`${apiServer}/api/search?q=${query}&max=10`)
       })
       .then(response => {
