@@ -47,7 +47,7 @@ fi
 
 echo ${INDEX_ERRORS} | grep "Can't load" | awk '{ print $7 }' | sed -e "s/:$//g" > indexErrors.txt
 
-LOG=$(git add documentationIndex.json indexErrors.txt)
+LOG=$(git add documentationIndex.json indexErrors.txt 2>&1)
 RC=$?
 if [[ ${RC} -ne 0 ]]
 then
@@ -56,7 +56,7 @@ then
        exit ${RC}
 fi
 
-LOG=$(git commit -am "chore: Updated documentation index")
+LOG=$(git commit -am "chore: Updated documentation index" 2>&1)
 RC=$?
 if [[ ${RC} -ne 0 ]]
 then
@@ -65,7 +65,7 @@ then
        exit ${RC}
 fi
 
-LOG=$(git push origin master)
+LOG=$(git push origin master 2>&1)
 RC=$?
 if [[ ${RC} -ne 0 ]]
 then
