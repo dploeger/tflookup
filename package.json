@@ -62,6 +62,9 @@
         "tslint-config-prettier": "^1.18.0",
         "typescript": "^3.4.5",
         "@types/express": "^4.16.1",
-        "@types/lodash": "^4.14.130"
+        "@types/lodash": "^4.14.130",
+        "request-promise": "^4.2.4",
+        "@types/request-promise": "^4.1.44",
+        "request": "^2.88.0"
     }
 }

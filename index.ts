@@ -8,6 +8,7 @@ import { LogLevelDesc } from 'loglevel'
 import * as logLevelPrefix from 'loglevel-plugin-prefix'
 import { ExpressError } from './lib/ExpressError'
 import { NextFunction, Request, Response } from 'express'
+import { Server } from './lib/Server'
 
 logLevelPrefix.reg(log)
 logLevelPrefix.apply(log)
@@ -23,29 +24,5 @@ new DocumentationIndexer().getIndex().then(documentationIndex => {
     return
   }
 
-  const app = express()
-
-  if (process.env.NODE_ENV !== 'production') {
-    log.warn('Enabling ALL CORS Requests')
-    app.use(require('cors')())
-  }
-
-  log.info('Registering UI')
-  app.use('/', express.static('static/dist'))
-  log.info('Registering api base')
-  app.use('/api', new ApiController().getRouter())
-  log.info('Registering index api')
-  app.use('/api/index', new IndexController(documentationIndex).getRouter())
-  log.info('Registering search api')
-  app.use('/api/search', new SearchController(documentationIndex).getRouter())
-
-  app.use((error: ExpressError, req: Request, res: Response, next: NextFunction) => {
-    if (error) {
-      error.sendError(res)
-    }
-  })
-
-  let servicePort = process.env.TFLOOKUP_PORT || 8080
-  log.info(`Starting service on port ${servicePort}`)
-  app.listen(servicePort)
+  return new Server(Number(process.env.TFLOOKUP_PORT) || 8080, documentationIndex).serve()
 })
