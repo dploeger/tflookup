@@ -46,7 +46,7 @@ then
         exit ${RC}
 fi
 
-echo ${INDEX_ERRORS} | grep "Can't load" | awk '{ print $7 }' | sed -e "s/:$//g" > indexErrors.txt
+echo "${INDEX_ERRORS}" | grep "Can't load" | awk '{ print $7 }' | sed -e "s/:$//g" > indexErrors.txt
 
 LOG=$(git add documentationIndex.json indexErrors.txt 2>&1)
 RC=$?
