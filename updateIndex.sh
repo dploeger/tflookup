@@ -47,6 +47,15 @@ fi
 
 echo ${INDEX_ERRORS} | grep "Can't load" | awk '{ print $7 }' | sed -e "s/:$//g" > indexErrors.txt
 
+LOG=$(git add documentationIndex.json indexErrors.txt)
+RC=$?
+if [[ ${RC} -ne 0 ]]
+then
+       echo "Error adding files:"
+       echo ${LOG}
+       exit ${RC}
+fi
+
 LOG=$(git commit -am "chore: Updated documentation index")
 RC=$?
 if [[ ${RC} -ne 0 ]]
