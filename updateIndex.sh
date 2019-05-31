@@ -26,8 +26,6 @@ then
         exit ${RC}
 fi
 
-rm documentationIndex.json &>/dev/null
-rm indexErrors.txt &>/dev/null
 LOG=$(git submodule update --remote --checkout --recursive 2>&1)
 if [[ ${RC} -ne 0 ]]
 then
@@ -35,6 +33,9 @@ then
         echo ${LOG}
         exit ${RC}
 fi
+
+rm documentationIndex.json &>/dev/null
+rm indexErrors.txt &>/dev/null
 
 INDEX_ERRORS=$(TFLOOKUP_INDEXFILE=documentationIndex.json TFLOOKUP_STORE_INDEX=true TFLOOKUP_START_SERVER=false node index.js 2>&1)
 RC=$?
