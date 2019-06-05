@@ -34,10 +34,9 @@ then
         exit ${RC}
 fi
 
-rm documentationIndex.json &>/dev/null
 rm indexErrors.txt &>/dev/null
 
-INDEX_ERRORS=$(TFLOOKUP_INDEXFILE=documentationIndex.json TFLOOKUP_STORE_INDEX=true TFLOOKUP_START_SERVER=false node index.js 2>&1)
+INDEX_ERRORS=$(TFLOOKUP_INDEXFILE=documentationIndex.json TFLOOKUP_STORE_INDEX=true TFLOOKUP_START_SERVER=false TFLOOKUP_IGNORE_INDEX=true node index.js 2>&1)
 RC=$?
 if [[ ${RC} -ne 0 ]]
 then

@@ -21,11 +21,9 @@ export class DocumentationIndexer {
         return fs.promises.readdir(directoryPath)
       })
       .catch(error => error.code === 'ENOENT', () => Bluebird.resolve([]))
-      .filter(
-        entry => {
-          return entry.endsWith('markdown')
-        }
-      )
+      .filter(entry => {
+        return entry.endsWith('markdown')
+      })
   }
 
   public getIndex(): Bluebird<AbstractDocumentationIndex> {
@@ -37,16 +35,25 @@ export class DocumentationIndexer {
 
     const documentationIndexFile = process.env.TFLOOKUP_INDEXFILE || 'documentationIndex.json'
 
-    return Bluebird.resolve(fs.promises.access(documentationIndexFile, fs.constants.R_OK))
+    return Bluebird.resolve()
       .then(() => {
-        return Bluebird.resolve(true)
-      })
-      .catch(
-        error => error.code === 'ENOENT',
-        error => {
+        if (process.env.hasOwnProperty('TFLOOKUP_IGNORE_INDEX')) {
           return Bluebird.resolve(false)
+        } else {
+          return Bluebird.resolve(fs.promises.access(documentationIndexFile, fs.constants.R_OK))
+            .then(() => {
+              return Bluebird.resolve(true)
+            })
+            .catch(
+              error => {
+                return error.code === 'ENOENT'
+              },
+              error => {
+                return Bluebird.resolve(false)
+              }
+            )
         }
-      )
+      })
       .then(indexExists => {
         if (indexExists) {
           log.info(`Reading documentation index from ${documentationIndexFile}`)
