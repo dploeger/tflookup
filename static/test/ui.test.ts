@@ -1,4 +1,4 @@
-import { RequestMock, Selector } from 'testcafe'
+import { RequestMock, Selector, ClientFunction } from 'testcafe'
 import { AbstractResult } from '../src/api/AbstractResult'
 import { AbstractObjectDocumentation } from '../src/api/AbstractObjectDocumentation'
 import { ResultType } from '../src/api/ResultType'
@@ -63,4 +63,11 @@ test('should display results to the search', async t => {
       }
     }
   }
+  const getUrl = ClientFunction(() => {
+    return document.location.href;
+  });
+
+  await t
+    .click(Selector('div[role=listitem]').nth(0))
+    .expect(getUrl()).eql('https://www.terraform.io/docs/providers/test/r/testresource.html')
 })
