@@ -69,15 +69,18 @@ export default class Lookup extends Vue {
   @Watch('query')
   public lookup(query: string): Bluebird<void> {
     if (this._searchPromise) {
+      this.$log.debug('Cancelling already created search request')
       this._searchPromise.cancel()
     }
     if (!query || query === '') {
       return Bluebird.resolve()
     }
+    this.$log.debug('Starting search promise in 500 milliseconds')
     this._searchPromise = Bluebird.delay(500)
       .then(() => {
         this.isLoading = true
         const apiServer = process.env.VUE_APP_TFLOG_API_SERVER || ''
+        this.$log.info(`Fetching search results for ${query} from ${apiServer}`)
         return fetch(`${apiServer}/api/search?q=${query}&max=10`)
       })
       .then(response => {
@@ -97,6 +100,7 @@ export default class Lookup extends Vue {
 
   get items(): Array<any> {
     let items = []
+    this.$log.debug('Converting search results to autocomplete items')
     for (const result of this.results) {
       let text: string
       if (result.resultType == ResultType.vendor) {
@@ -113,10 +117,12 @@ export default class Lookup extends Vue {
   }
 
   public visit(): void {
+    this.$log.debug(`Opening ${this.selectedItem.result.url}`)
     window.open(this.selectedItem.result.url)
   }
 
   public mounted(): void {
+    this.$log.debug('Focussing autocomplete input field');
     (this.$refs.search as any).$refs.input.focus()
   }
 

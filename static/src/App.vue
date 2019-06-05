@@ -49,10 +49,5 @@ export default {
   components: {
     Lookup
   },
-  data: () => {
-    return {
-      //
-    }
-  }
 }
 </script>
