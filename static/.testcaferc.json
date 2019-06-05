@@ -1,0 +1,8 @@
+{
+    "src": "test/*.test.ts",
+    "browsers": ["chrome", "firefox"],
+    "appCommand": "npm run serve &>/dev/null",
+    "appInitDelay": 30000,
+    "takeScreenshotsOnFails": true,
+    "screenshotPath": "screenshots"
+}
