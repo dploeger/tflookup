@@ -13,6 +13,7 @@ google:r:compute_backend_bucket_signed_url_key.html.markdown
 google:r:compute_backend_service.html.markdown
 google:r:compute_backend_service_signed_url_key.html.markdown
 google:r:compute_disk.html.markdown
+google:r:compute_external_vpn_gateway.html.markdown
 google:r:compute_firewall.html.markdown
 google:r:compute_forwarding_rule.html.markdown
 google:r:compute_global_address.html.markdown
@@ -25,12 +26,14 @@ google:r:compute_image.html.markdown
 google:r:compute_interconnect_attachment.html.markdown
 google:r:compute_managed_ssl_certificate.html.markdown
 google:r:compute_network.html.markdown
+google:r:compute_network_endpoint.html.markdown
 google:r:compute_network_endpoint_group.html.markdown
 google:r:compute_node_group.html.markdown
 google:r:compute_node_template.html.markdown
 google:r:compute_region_autoscaler.html.markdown
 google:r:compute_region_backend_service.html.markdown
 google:r:compute_region_disk.html.markdown
+google:r:compute_resource_policy.html.markdown
 google:r:compute_route.html.markdown
 google:r:compute_router.html.markdown
 google:r:compute_snapshot.html.markdown
@@ -50,6 +53,7 @@ google:r:dns_managed_zone.html.markdown
 google:r:dns_policy.html.markdown
 google:r:filestore_instance.html.markdown
 google:r:firestore_index.html.markdown
+google:r:kms_crypto_key.html.markdown
 google:r:kms_key_ring.html.markdown
 google:r:logging_metric.html.markdown
 google:r:monitoring_alert_policy.html.markdown
