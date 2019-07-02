@@ -53,6 +53,10 @@ google:r:dns_managed_zone.html.markdown
 google:r:dns_policy.html.markdown
 google:r:filestore_instance.html.markdown
 google:r:firestore_index.html.markdown
+google:r:healthcare_dataset.html.markdown
+google:r:healthcare_dicom_store.html.markdown
+google:r:healthcare_fhir_store.html.markdown
+google:r:healthcare_hl7_v2_store.html.markdown
 google:r:kms_crypto_key.html.markdown
 google:r:kms_key_ring.html.markdown
 google:r:logging_metric.html.markdown
