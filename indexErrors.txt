@@ -66,10 +66,12 @@ google:r:monitoring_notification_channel.html.markdown
 google:r:monitoring_uptime_check_config.html.markdown
 google:r:pubsub_subscription.html.markdown
 google:r:pubsub_topic.html.markdown
+google:r:pubsub_topic_iam.html.markdown
 google:r:redis_instance.html.markdown
 google:r:resource_manager_lien.html.markdown
 google:r:security_scanner_scan_config.html.markdown
 google:r:source_repo_repository.html.markdown
+google:r:source_repo_repository_iam.html.markdown
 google:r:spanner_database.html.markdown
 google:r:spanner_instance.html.markdown
 google:r:storage_default_object_access_control.html.markdown
