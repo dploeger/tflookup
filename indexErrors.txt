@@ -5,6 +5,8 @@ google:r:app_engine_firewall_rule.html.markdown
 google:r:binary_authorization_attestor.html.markdown
 google:r:binary_authorization_policy.html.markdown
 google:r:cloud_build_trigger.html.markdown
+google:r:cloud_run_domain_mapping.html.markdown
+google:r:cloud_run_service.html.markdown
 google:r:cloud_scheduler_job.html.markdown
 google:r:compute_address.html.markdown
 google:r:compute_autoscaler.html.markdown
