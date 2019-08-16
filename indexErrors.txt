@@ -3,6 +3,7 @@ google:r:access_context_manager_access_level.html.markdown
 google:r:access_context_manager_access_policy.html.markdown
 google:r:access_context_manager_service_perimeter.html.markdown
 google:r:app_engine_firewall_rule.html.markdown
+google:r:bigquery_data_transfer_config.html.markdown
 google:r:binary_authorization_attestor.html.markdown
 google:r:binary_authorization_policy.html.markdown
 google:r:cloud_build_trigger.html.markdown
@@ -72,6 +73,7 @@ google:r:pubsub_topic.html.markdown
 google:r:pubsub_topic_iam.html.markdown
 google:r:redis_instance.html.markdown
 google:r:resource_manager_lien.html.markdown
+google:r:security_center_source.html.markdown
 google:r:security_scanner_scan_config.html.markdown
 google:r:source_repo_repository.html.markdown
 google:r:source_repo_repository_iam.html.markdown
@@ -80,3 +82,4 @@ google:r:spanner_instance.html.markdown
 google:r:storage_default_object_access_control.html.markdown
 google:r:storage_object_access_control.html.markdown
 google:r:tpu_node.html.markdown
+google:r:vpc_access_connector.html.markdown
