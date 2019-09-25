@@ -22,6 +22,7 @@ google:r:compute_backend_bucket_signed_url_key.html.markdown
 google:r:compute_backend_service.html.markdown
 google:r:compute_backend_service_signed_url_key.html.markdown
 google:r:compute_disk.html.markdown
+google:r:compute_disk_resource_policy_attachment.html.markdown
 google:r:compute_external_vpn_gateway.html.markdown
 google:r:compute_firewall.html.markdown
 google:r:compute_forwarding_rule.html.markdown
@@ -43,6 +44,7 @@ google:r:compute_region_autoscaler.html.markdown
 google:r:compute_region_backend_service.html.markdown
 google:r:compute_region_disk.html.markdown
 google:r:compute_region_health_check.html.markdown
+google:r:compute_region_url_map.html.markdown
 google:r:compute_reservation.html.markdown
 google:r:compute_resource_policy.html.markdown
 google:r:compute_route.html.markdown
@@ -87,6 +89,7 @@ google:r:pubsub_topic.html.markdown
 google:r:pubsub_topic_iam.html.markdown
 google:r:redis_instance.html.markdown
 google:r:resource_manager_lien.html.markdown
+google:r:runtimeconfig_config_iam.html.markdown
 google:r:scc_source.html.markdown
 google:r:security_scanner_scan_config.html.markdown
 google:r:sourcerepo_repository.html.markdown
