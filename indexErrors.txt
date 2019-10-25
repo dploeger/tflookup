@@ -1,4 +1,3 @@
-alicloud:r:ddosbgp_instance.html.markdown
 cloudflare:r:custom_ssl.html.markdown
 google:r:access_context_manager_access_level.html.markdown
 google:r:access_context_manager_access_policy.html.markdown
