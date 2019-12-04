@@ -1,3 +1,4 @@
+aws:r:route_table_association.html.markdown
 azurerm:d:netapp_pool.html.markdown
 cloudflare:r:custom_ssl.html.markdown
 google:r:access_context_manager_access_level.html.markdown
