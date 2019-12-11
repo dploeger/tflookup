@@ -17,6 +17,7 @@ google:r:binary_authorization_attestor_iam.html.markdown
 google:r:binary_authorization_policy.html.markdown
 google:r:cloud_run_domain_mapping.html.markdown
 google:r:cloud_run_service.html.markdown
+google:r:cloud_run_service_iam.html.markdown
 google:r:cloud_scheduler_job.html.markdown
 google:r:cloud_tasks_queue.html.markdown
 google:r:cloudbuild_trigger.html.markdown
