@@ -119,4 +119,3 @@ google:r:storage_default_object_access_control.html.markdown
 google:r:storage_object_access_control.html.markdown
 google:r:tpu_node.html.markdown
 google:r:vpc_access_connector.html.markdown
-tencentcloud:r:tcaplus_zone.html.markdown
