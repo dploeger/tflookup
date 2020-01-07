@@ -92,8 +92,16 @@ google:r:iap_web_backend_service_iam.html.markdown
 google:r:iap_web_iam.html.markdown
 google:r:iap_web_type_app_engine_iam.html.markdown
 google:r:iap_web_type_compute_iam.html.markdown
+google:r:identity_platform_default_supported_idp_config.html.markdown
+google:r:identity_platform_inbound_saml_config.html.markdown
+google:r:identity_platform_oauth_idp_config.html.markdown
+google:r:identity_platform_tenant.html.markdown
+google:r:identity_platform_tenant_default_supported_idp_config.html.markdown
+google:r:identity_platform_tenant_inbound_saml_config.html.markdown
+google:r:identity_platform_tenant_oauth_idp_config.html.markdown
 google:r:kms_crypto_key.html.markdown
 google:r:kms_key_ring.html.markdown
+google:r:kms_secret_ciphertext.html.markdown
 google:r:logging_metric.html.markdown
 google:r:ml_engine_model.html.markdown
 google:r:monitoring_alert_policy.html.markdown
