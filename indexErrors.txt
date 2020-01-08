@@ -1,4 +1,6 @@
 azurerm:d:netapp_pool.html.markdown
+azurerm:d:netapp_snapshot.html.markdown
+azurerm:d:netapp_volume.html.markdown
 cloudflare:r:custom_ssl.html.markdown
 google:r:access_context_manager_access_level.html.markdown
 google:r:access_context_manager_access_policy.html.markdown
