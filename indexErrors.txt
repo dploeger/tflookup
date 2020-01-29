@@ -44,6 +44,7 @@ google:r:compute_managed_ssl_certificate.html.markdown
 google:r:compute_network.html.markdown
 google:r:compute_network_endpoint.html.markdown
 google:r:compute_network_endpoint_group.html.markdown
+google:r:compute_network_peering_routes_config.html.markdown
 google:r:compute_node_group.html.markdown
 google:r:compute_node_template.html.markdown
 google:r:compute_region_autoscaler.html.markdown
@@ -87,6 +88,7 @@ google:r:healthcare_fhir_store.html.markdown
 google:r:healthcare_hl7_v2_store.html.markdown
 google:r:iap_app_engine_service_iam.html.markdown
 google:r:iap_app_engine_version_iam.html.markdown
+google:r:iap_tunnel_instance_iam.html.markdown
 google:r:iap_web_backend_service_iam.html.markdown
 google:r:iap_web_iam.html.markdown
 google:r:iap_web_type_app_engine_iam.html.markdown
