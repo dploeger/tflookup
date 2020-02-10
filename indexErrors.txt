@@ -2,6 +2,7 @@ cloudflare:r:custom_ssl.html.markdown
 google:r:access_context_manager_access_level.html.markdown
 google:r:access_context_manager_access_policy.html.markdown
 google:r:access_context_manager_service_perimeter.html.markdown
+google:r:access_context_manager_service_perimeter_resource.html.markdown
 google:r:app_engine_application_url_dispatch_rules.html.markdown
 google:r:app_engine_domain_mapping.html.markdown
 google:r:app_engine_firewall_rule.html.markdown
@@ -78,6 +79,7 @@ google:r:container_analysis_note.html.markdown
 google:r:data_fusion_instance.html.markdown
 google:r:dataproc_autoscaling_policy.html.markdown
 google:r:deployment_manager_deployment.html.markdown
+google:r:dialogflow_agent.html.markdown
 google:r:dns_managed_zone.html.markdown
 google:r:dns_policy.html.markdown
 google:r:filestore_instance.html.markdown
@@ -116,6 +118,9 @@ google:r:redis_instance.html.markdown
 google:r:resource_manager_lien.html.markdown
 google:r:runtimeconfig_config_iam.html.markdown
 google:r:scc_source.html.markdown
+google:r:secret_manager_secret.html.markdown
+google:r:secret_manager_secret_iam.html.markdown
+google:r:secret_manager_secret_version.html.markdown
 google:r:security_scanner_scan_config.html.markdown
 google:r:sourcerepo_repository.html.markdown
 google:r:sourcerepo_repository_iam.html.markdown
