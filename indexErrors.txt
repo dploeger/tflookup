@@ -78,10 +78,12 @@ google:r:compute_vpn_tunnel.html.markdown
 google:r:container_analysis_note.html.markdown
 google:r:data_fusion_instance.html.markdown
 google:r:dataproc_autoscaling_policy.html.markdown
+google:r:datastore_index.html.markdown
 google:r:deployment_manager_deployment.html.markdown
 google:r:dialogflow_agent.html.markdown
 google:r:dns_managed_zone.html.markdown
 google:r:dns_policy.html.markdown
+google:r:endpoints_service_iam.html.markdown
 google:r:filestore_instance.html.markdown
 google:r:firestore_index.html.markdown
 google:r:healthcare_dataset.html.markdown
@@ -130,6 +132,7 @@ google:r:sql_database.html.markdown
 google:r:storage_bucket_access_control.html.markdown
 google:r:storage_bucket_iam.html.markdown
 google:r:storage_default_object_access_control.html.markdown
+google:r:storage_hmac_key.html.markdown
 google:r:storage_object_access_control.html.markdown
 google:r:tpu_node.html.markdown
 google:r:vpc_access_connector.html.markdown
