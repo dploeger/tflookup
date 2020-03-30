@@ -1,4 +1,5 @@
 cloudflare:r:custom_ssl.html.markdown
+github:d:ip_ranges.html.markdown
 google:r:access_context_manager_access_level.html.markdown
 google:r:access_context_manager_access_policy.html.markdown
 google:r:access_context_manager_service_perimeter.html.markdown
@@ -6,6 +7,7 @@ google:r:access_context_manager_service_perimeter_resource.html.markdown
 google:r:app_engine_application_url_dispatch_rules.html.markdown
 google:r:app_engine_domain_mapping.html.markdown
 google:r:app_engine_firewall_rule.html.markdown
+google:r:app_engine_flexible_app_version.html.markdown
 google:r:app_engine_service_split_traffic.html.markdown
 google:r:app_engine_standard_app_version.html.markdown
 google:r:bigquery_data_transfer_config.html.markdown
@@ -41,6 +43,7 @@ google:r:compute_health_check.html.markdown
 google:r:compute_http_health_check.html.markdown
 google:r:compute_https_health_check.html.markdown
 google:r:compute_image.html.markdown
+google:r:compute_instance_group_named_port.html.markdown
 google:r:compute_instance_iam.html.markdown
 google:r:compute_interconnect_attachment.html.markdown
 google:r:compute_managed_ssl_certificate.html.markdown
@@ -89,6 +92,7 @@ google:r:dns_managed_zone.html.markdown
 google:r:dns_policy.html.markdown
 google:r:endpoints_service_iam.html.markdown
 google:r:filestore_instance.html.markdown
+google:r:firebase_project.html.markdown
 google:r:firestore_index.html.markdown
 google:r:game_services_game_server_cluster.html.markdown
 google:r:game_services_game_server_config.html.markdown
@@ -101,6 +105,8 @@ google:r:healthcare_fhir_store.html.markdown
 google:r:healthcare_hl7_v2_store.html.markdown
 google:r:iap_app_engine_service_iam.html.markdown
 google:r:iap_app_engine_version_iam.html.markdown
+google:r:iap_brand.html.markdown
+google:r:iap_client.html.markdown
 google:r:iap_tunnel_instance_iam.html.markdown
 google:r:iap_web_backend_service_iam.html.markdown
 google:r:iap_web_iam.html.markdown
@@ -133,6 +139,7 @@ google:r:secret_manager_secret.html.markdown
 google:r:secret_manager_secret_iam.html.markdown
 google:r:secret_manager_secret_version.html.markdown
 google:r:security_scanner_scan_config.html.markdown
+google:r:service_usage_consumer_quota_override.html.markdown
 google:r:sourcerepo_repository.html.markdown
 google:r:sourcerepo_repository_iam.html.markdown
 google:r:spanner_database.html.markdown
