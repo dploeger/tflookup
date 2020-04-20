@@ -14,6 +14,7 @@ google:r:app_engine_standard_app_version.html.markdown
 google:r:bigquery_data_transfer_config.html.markdown
 google:r:bigquery_dataset.html.markdown
 google:r:bigquery_dataset_access.html.markdown
+google:r:bigquery_job.html.markdown
 google:r:bigquery_reservation.html.markdown
 google:r:bigtable_app_profile.html.markdown
 google:r:billing_budget.html.markdown
@@ -40,6 +41,8 @@ google:r:compute_firewall.html.markdown
 google:r:compute_forwarding_rule.html.markdown
 google:r:compute_global_address.html.markdown
 google:r:compute_global_forwarding_rule.html.markdown
+google:r:compute_global_network_endpoint.html.markdown
+google:r:compute_global_network_endpoint_group.html.markdown
 google:r:compute_ha_vpn_gateway.html.markdown
 google:r:compute_health_check.html.markdown
 google:r:compute_http_health_check.html.markdown
@@ -97,6 +100,7 @@ google:r:endpoints_service_iam.html.markdown
 google:r:filestore_instance.html.markdown
 google:r:firebase_project.html.markdown
 google:r:firebase_project_location.html.markdown
+google:r:firebase_web_app.html.markdown
 google:r:firestore_index.html.markdown
 google:r:game_services_game_server_cluster.html.markdown
 google:r:game_services_game_server_config.html.markdown
@@ -131,6 +135,8 @@ google:r:ml_engine_model.html.markdown
 google:r:monitoring_alert_policy.html.markdown
 google:r:monitoring_group.html.markdown
 google:r:monitoring_notification_channel.html.markdown
+google:r:monitoring_service.html.markdown
+google:r:monitoring_slo.html.markdown
 google:r:monitoring_uptime_check_config.html.markdown
 google:r:os_login_ssh_public_key.html.markdown
 google:r:pubsub_subscription.html.markdown
