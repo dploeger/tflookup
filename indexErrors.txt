@@ -14,7 +14,6 @@ google:r:app_engine_standard_app_version.html.markdown
 google:r:bigquery_data_transfer_config.html.markdown
 google:r:bigquery_dataset.html.markdown
 google:r:bigquery_dataset_access.html.markdown
-google:r:bigquery_job.html.markdown
 google:r:bigquery_reservation.html.markdown
 google:r:bigtable_app_profile.html.markdown
 google:r:billing_budget.html.markdown
