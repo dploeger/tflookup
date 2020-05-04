@@ -12,6 +12,9 @@ google:r:app_engine_firewall_rule.html.markdown
 google:r:app_engine_flexible_app_version.html.markdown
 google:r:app_engine_service_split_traffic.html.markdown
 google:r:app_engine_standard_app_version.html.markdown
+google:r:artifact_registry_repository.html.markdown
+google:r:artifact_registry_repository_iam.html.markdown
+google:r:bigquery_connection.html.markdown
 google:r:bigquery_data_transfer_config.html.markdown
 google:r:bigquery_dataset.html.markdown
 google:r:bigquery_dataset_access.html.markdown
