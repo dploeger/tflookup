@@ -1,6 +1,4 @@
 cloudflare:r:custom_ssl.html.markdown
-github:d:ip_ranges.html.markdown
-github:d:membership.html.markdown
 google:r:access_context_manager_access_level.html.markdown
 google:r:access_context_manager_access_policy.html.markdown
 google:r:access_context_manager_service_perimeter.html.markdown
