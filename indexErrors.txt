@@ -97,6 +97,7 @@ google:r:container_analysis_occurrence.html.markdown
 google:r:data_catalog_entry.html.markdown
 google:r:data_catalog_entry_group.html.markdown
 google:r:data_catalog_entry_group_iam.html.markdown
+google:r:data_catalog_tag.html.markdown
 google:r:data_catalog_tag_template.html.markdown
 google:r:data_fusion_instance.html.markdown
 google:r:dataproc_autoscaling_policy.html.markdown
@@ -142,6 +143,7 @@ google:r:kms_crypto_key.html.markdown
 google:r:kms_key_ring.html.markdown
 google:r:kms_secret_ciphertext.html.markdown
 google:r:logging_metric.html.markdown
+google:r:memcache_instance.html.markdown
 google:r:ml_engine_model.html.markdown
 google:r:monitoring_alert_policy.html.markdown
 google:r:monitoring_group.html.markdown
@@ -149,6 +151,7 @@ google:r:monitoring_notification_channel.html.markdown
 google:r:monitoring_service.html.markdown
 google:r:monitoring_slo.html.markdown
 google:r:monitoring_uptime_check_config.html.markdown
+google:r:network_management_connectivity_test_resource.html.markdown
 google:r:os_login_ssh_public_key.html.markdown
 google:r:pubsub_subscription.html.markdown
 google:r:pubsub_topic.html.markdown
