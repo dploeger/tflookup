@@ -22,6 +22,8 @@ google:r:billing_budget.html.markdown
 google:r:binary_authorization_attestor.html.markdown
 google:r:binary_authorization_attestor_iam.html.markdown
 google:r:binary_authorization_policy.html.markdown
+google:r:cloud_identity_group.html.markdown
+google:r:cloud_identity_group_membership.html.markdown
 google:r:cloud_run_domain_mapping.html.markdown
 google:r:cloud_run_service.html.markdown
 google:r:cloud_run_service_iam.html.markdown
@@ -141,6 +143,7 @@ google:r:identity_platform_tenant_inbound_saml_config.html.markdown
 google:r:identity_platform_tenant_oauth_idp_config.html.markdown
 google:r:kms_crypto_key.html.markdown
 google:r:kms_key_ring.html.markdown
+google:r:kms_key_ring_import_job.html.markdown
 google:r:kms_secret_ciphertext.html.markdown
 google:r:logging_metric.html.markdown
 google:r:memcache_instance.html.markdown
