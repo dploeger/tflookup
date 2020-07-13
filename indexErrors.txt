@@ -159,6 +159,7 @@ google:r:network_management_connectivity_test_resource.html.markdown
 google:r:notebooks_environment.html.markdown
 google:r:notebooks_instance.html.markdown
 google:r:notebooks_location.html.markdown
+google:r:os_config_patch_deployment.html.markdown
 google:r:os_login_ssh_public_key.html.markdown
 google:r:pubsub_subscription.html.markdown
 google:r:pubsub_topic.html.markdown
