@@ -32,6 +32,7 @@ google:r:cloud_scheduler_job.html.markdown
 google:r:cloud_tasks_queue.html.markdown
 google:r:cloudbuild_trigger.html.markdown
 google:r:cloudfunctions_cloud_function_iam.html.markdown
+google:r:cloudiot_device.html.markdown
 google:r:cloudiot_device_registry.html.markdown
 google:r:compute_address.html.markdown
 google:r:compute_autoscaler.html.markdown
