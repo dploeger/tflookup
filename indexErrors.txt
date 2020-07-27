@@ -23,6 +23,9 @@ google:r:billing_budget.html.markdown
 google:r:binary_authorization_attestor.html.markdown
 google:r:binary_authorization_attestor_iam.html.markdown
 google:r:binary_authorization_policy.html.markdown
+google:r:cloud_asset_folder_feed.html.markdown
+google:r:cloud_asset_organization_feed.html.markdown
+google:r:cloud_asset_project_feed.html.markdown
 google:r:cloud_identity_group.html.markdown
 google:r:cloud_identity_group_membership.html.markdown
 google:r:cloud_run_domain_mapping.html.markdown
@@ -32,6 +35,7 @@ google:r:cloud_scheduler_job.html.markdown
 google:r:cloud_tasks_queue.html.markdown
 google:r:cloudbuild_trigger.html.markdown
 google:r:cloudfunctions_cloud_function_iam.html.markdown
+google:r:cloudiot_device.html.markdown
 google:r:cloudiot_device_registry.html.markdown
 google:r:compute_address.html.markdown
 google:r:compute_autoscaler.html.markdown
@@ -151,6 +155,7 @@ google:r:memcache_instance.html.markdown
 google:r:ml_engine_model.html.markdown
 google:r:monitoring_alert_policy.html.markdown
 google:r:monitoring_group.html.markdown
+google:r:monitoring_metric_descriptor.html.markdown
 google:r:monitoring_notification_channel.html.markdown
 google:r:monitoring_service.html.markdown
 google:r:monitoring_slo.html.markdown
@@ -159,6 +164,8 @@ google:r:network_management_connectivity_test_resource.html.markdown
 google:r:notebooks_environment.html.markdown
 google:r:notebooks_instance.html.markdown
 google:r:notebooks_location.html.markdown
+google:r:os_config_guest_policies.html.markdown
+google:r:os_config_patch_deployment.html.markdown
 google:r:os_login_ssh_public_key.html.markdown
 google:r:pubsub_subscription.html.markdown
 google:r:pubsub_topic.html.markdown
