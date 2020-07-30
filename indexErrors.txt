@@ -198,4 +198,3 @@ google:r:storage_object_access_control.html.markdown
 google:r:tpu_node.html.markdown
 google:r:vpc_access_connector.html.markdown
 huaweicloud:r:api_gateway_api.html.markdown
-kubernetes:d:persistent_volume_claim.html.markdown
