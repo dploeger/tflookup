@@ -4,6 +4,7 @@ google:r:access_context_manager_access_level.html.markdown
 google:r:access_context_manager_access_policy.html.markdown
 google:r:access_context_manager_service_perimeter.html.markdown
 google:r:access_context_manager_service_perimeter_resource.html.markdown
+google:r:active_directory_domain.html.markdown
 google:r:app_engine_application_url_dispatch_rules.html.markdown
 google:r:app_engine_domain_mapping.html.markdown
 google:r:app_engine_firewall_rule.html.markdown
