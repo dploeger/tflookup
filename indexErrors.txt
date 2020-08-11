@@ -69,6 +69,9 @@ google:r:compute_network_endpoint_group.html.markdown
 google:r:compute_network_peering_routes_config.html.markdown
 google:r:compute_node_group.html.markdown
 google:r:compute_node_template.html.markdown
+google:r:compute_organization_security_policy.html.markdown
+google:r:compute_organization_security_policy_association.html.markdown
+google:r:compute_organization_security_policy_rule.html.markdown
 google:r:compute_packet_mirroring.html.markdown
 google:r:compute_per_instance_config.html.markdown
 google:r:compute_region_autoscaler.html.markdown
