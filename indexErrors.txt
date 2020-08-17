@@ -79,6 +79,7 @@ google:r:compute_region_backend_service.html.markdown
 google:r:compute_region_disk.html.markdown
 google:r:compute_region_disk_resource_policy_attachment.html.markdown
 google:r:compute_region_health_check.html.markdown
+google:r:compute_region_network_endpoint_group.html.markdown
 google:r:compute_region_per_instance_config.html.markdown
 google:r:compute_region_ssl_certificate.html.markdown
 google:r:compute_region_target_http_proxy.html.markdown
