@@ -1,10 +1,16 @@
 alicloud:d:dms_enterprise_users.html.markdown
 cloudflare:r:custom_ssl.html.markdown
+google:r:access_approval_folder_settings.html.markdown
+google:r:access_approval_organization_settings.html.markdown
+google:r:access_approval_project_settings.html.markdown
 google:r:access_context_manager_access_level.html.markdown
+google:r:access_context_manager_access_levels.html.markdown
 google:r:access_context_manager_access_policy.html.markdown
 google:r:access_context_manager_service_perimeter.html.markdown
 google:r:access_context_manager_service_perimeter_resource.html.markdown
+google:r:access_context_manager_service_perimeters.html.markdown
 google:r:active_directory_domain.html.markdown
+google:r:active_directory_domain_trust.html.markdown
 google:r:app_engine_application_url_dispatch_rules.html.markdown
 google:r:app_engine_domain_mapping.html.markdown
 google:r:app_engine_firewall_rule.html.markdown
@@ -19,6 +25,7 @@ google:r:bigquery_dataset.html.markdown
 google:r:bigquery_dataset_access.html.markdown
 google:r:bigquery_job.html.markdown
 google:r:bigquery_reservation.html.markdown
+google:r:bigquery_table_iam.html.markdown
 google:r:bigtable_app_profile.html.markdown
 google:r:billing_budget.html.markdown
 google:r:binary_authorization_attestor.html.markdown
