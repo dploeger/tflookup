@@ -122,6 +122,9 @@ google:r:data_catalog_entry_group_iam.html.markdown
 google:r:data_catalog_tag.html.markdown
 google:r:data_catalog_tag_template.html.markdown
 google:r:data_fusion_instance.html.markdown
+google:r:data_loss_prevention_inspect_template.html.markdown
+google:r:data_loss_prevention_job_trigger.html.markdown
+google:r:data_loss_prevention_stored_info_type.html.markdown
 google:r:dataproc_autoscaling_policy.html.markdown
 google:r:datastore_index.html.markdown
 google:r:deployment_manager_deployment.html.markdown
