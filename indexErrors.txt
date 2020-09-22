@@ -106,6 +106,7 @@ google:r:compute_ssl_certificate.html.markdown
 google:r:compute_ssl_policy.html.markdown
 google:r:compute_subnetwork.html.markdown
 google:r:compute_subnetwork_iam.html.markdown
+google:r:compute_target_grpc_proxy.html.markdown
 google:r:compute_target_http_proxy.html.markdown
 google:r:compute_target_https_proxy.html.markdown
 google:r:compute_target_instance.html.markdown
