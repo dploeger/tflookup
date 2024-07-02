@@ -1,3 +1,5 @@
+**This repository is archived as the current Terraform registry is better than it was before**
+
 # tflookup - Terraform Documentation Lookup
 
 ## Introduction
