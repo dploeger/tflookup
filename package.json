@@ -33,7 +33,7 @@
     "dependencies": {
         "bluebird": "^3.5.4",
         "loglevel": "^1.6.1",
-        "express": "^4.17.0",
+        "express": "^4.17.3",
         "frontmatter": "^0.0.3",
         "loglevel-plugin-prefix": "^0.8.4",
         "lodash.eq": "^4.0.0",
